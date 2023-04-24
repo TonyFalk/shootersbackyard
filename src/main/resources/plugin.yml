@@ -1,0 +1,23 @@
+name: GunPoint
+version: '${project.version}'
+main: zx.tonyfalk.ShootersBackYard
+api-version: 1.19
+authors: [ davidzx1400, TonyFalk ]
+description: Zunker minigame
+website: fearteamplays@gmail.com
+commands:
+  ctf:
+    description: ctf
+  dm:
+    description: dm
+  tdm:
+    description: tdm
+  itemdata:
+    description: itemdata
+  hubset:
+    description: hub
+  loadouts:
+    description: loadouts
+  games:
+    description: games
+

@@ -1,0 +1,12 @@
+#
+# Zunker plugin for unrealcraft
+# By tonyfalk aka davidzx1400
+#
+# serverishub - if seet to false it means the server will be game server if true it will work as a hub.
+# decisionisdone is once u decide wether is hub server or game server
+decisionisdone: false
+serverishub: false
+#
+# setup not meant to be touched!
+#
+setup: true
