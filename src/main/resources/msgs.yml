@@ -1,0 +1,50 @@
+
+#
+# the Format in chat goes like Prefix PlayerName Suffix
+# it supports any placeholders for sender use %unrealcraft_teamcolor% < example
+#
+Chat:
+  Prefix: "&7[&f%unrealcraft_playerlevel%&7]%unrealcraft_teamcolor%"
+  Suffix: "&f&l:&7"
+#
+# game general messages
+# before starts appears 15 seconds before game starts in chat! %T% is time left placeholder
+# gamexpcashnearn when player earns and cash message %CASH% amount of cash %XP% amount of xp
+#
+beforestarts: "&cStarts in &4&l%T%"
+gamexpcashearn: "+%CASH%Cash +%XP%XP"
+#
+# a suicide
+# b killed by someone.
+# notice that PAPI placeholders will work for killer placeholders use $unrealcraft_teamcolor$ the dead player place holders work as %urealcraft_teamcolor%
+#
+deathmessages:
+  projectile:
+    a: "%urealcraft_teamcolor%<player>&7&l was shot by $unrealcraft_teamcolor$<killer>&7&l using $unrealcraft_weapon_inhand$"
+  fall:
+    a: "%urealcraft_teamcolor%<player>&7&l have broke both his legs!"
+    b: "%urealcraft_teamcolor%<player>&7&l was pushed to death by $urealcraft_teamcolor$<killer>&7&l using $unrealcraft_weapon_inhand$"
+  void:
+    a: "%urealcraft_teamcolor%<player>&7&l decided to visit the aliens!"
+    b: "%urealcraft_teamcolor%<player>&7&l was pushed to void by $urealcraft_teamcolor$<killer>&7&l using $unrealcraft_weapon_inhand$"
+  drowning:
+    a: "%urealcraft_teamcolor%<player>&7&l drowned"
+    b: "%urealcraft_teamcolor%<player>&7&l drowned whilst trying to escape $urealcraft_teamcolor$<killer>"
+  melee:
+    a: "%urealcraft_teamcolor%<player>&7&l got killed some how"
+    b: "%urealcraft_teamcolor%<player>&7&l was slain by $urealcraft_teamcolor$<killer>&7&l using $unrealcraft_weapon_inhand$"
+  fire:
+    a: "%urealcraft_teamcolor%<player>&7&l burned to death"
+    b: "%urealcraft_teamcolor%<player>&7&l burned to death while escaping $urealcraft_teamcolor$<killer>"
+  lava:
+    a: "%urealcraft_teamcolor%<player>&7&l tried to swim in the lava pool!"
+    b: "%urealcraft_teamcolor%<player>&7&l was pushed into lava pool by $urealcraft_teamcolor$<killer>&7&l using $unrealcraft_weapon_inhand$"
+  lightining:
+    a: "&7&lZeus didnt like %urealcraft_teamcolor%<player>"
+    b: "%urealcraft_teamcolor%<player>&7&l got electric chaired by $urealcraft_teamcolor$<killer>"
+  explosion:
+    a: "just blow him self up true terrorist %urealcraft_teamcolor%<player>&7&l!"
+    b: "%urealcraft_teamcolor%<player>&7&l lost his legs due explosive set by $urealcraft_teamcolor$<killer>"
+  other:
+    a: "%urealcraft_teamcolor%<player>&7&l killed him self :("
+    b: "%urealcraft_teamcolor%<player>&7&l got killed by $urealcraft_teamcolor$<killer>&7&l using $unrealcraft_weapon_inhand$"

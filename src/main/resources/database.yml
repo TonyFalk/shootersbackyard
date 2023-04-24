@@ -1,0 +1,4 @@
+DATABASE:
+  Username: root
+  Password: 123456
+  JdbcUrl: URL

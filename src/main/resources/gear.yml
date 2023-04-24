@@ -1,0 +1,38 @@
+# Ammo amount of ammo
+# Player will get in loadout
+# notice ammo will depend on Gun player used if it was AK47 and u amount of stacks per every digit.
+# so if seconderygun is rpg you can register ammo 1 and pistol 64 ammo and then just say 2
+Ammo:
+  primaryammoamount: 4
+  seconderyammoamount: 2
+#
+# ARMORS are itemdata H- HELMET C- CHESTPLATE L- LEGGNGS B- BOOTS
+#
+Armors:
+  Red:
+    H:
+    C:
+    L:
+    B:
+  Blue:
+    H:
+    C:
+    L:
+    B:
+  None:
+    H:
+    C:
+    L:
+    B:
+  Infected:
+    H:
+    C:
+    L:
+    B:
+#
+# Lobby
+# TeamSelector is Itemdata - will appear only if the game mode has teams means for example in DM (FFA) , Infected (Random guy get fucked up by boring role) the item wont be given in the lobby
+# LoadOutEditor is Itemdata used to change loadouts!
+Lobby:
+  TeamSelector:
+  LoadoutEditor:

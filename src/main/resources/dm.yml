@@ -1,0 +1,17 @@
+#
+# do not change isReady manually!
+#
+isReady: false
+ScoreBoard:
+  Title: "Deathmatch"
+  lines:
+    - " "
+    - " Map:%unrealcraft_arena%"
+    - " "
+    - " "
+    - " %unrealcraft_timeleft%"
+
+XP:
+  Kill: 8
+CASH:
+  Kill: 8

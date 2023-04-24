@@ -1,0 +1,172 @@
+#
+# MenuName - the name of the inventory players will see
+# LoadOutsMenu - numbers - requirements - if set to true person will be able to use it only if he has the requirements
+# LoadOutsMenu - numbers - requirements types - permission: text permission
+# lockdescription - what it says when its locked (lore)
+# description - what it says when unlocked (lore)
+# price - amount of points required to unlock (only in guns) level works too and permission.
+LoadOutsMenu:
+  MenuName: "&f&l[Loadouts]"
+  1:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+  2:
+    name: "&4Loadout"
+    level: 10
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3level 10 to unlock"
+  3:
+    name: "&4Loadout"
+    level: 15
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3level 15 to unlock"
+  4:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3VIP lock"
+    permission: "loadoutvip"
+  5:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3VIP lock"
+    permission: "loadoutvip"
+  6:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3VIP lock"
+    permission: "loadoutvip"
+  7:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3VIP lock"
+    permission: "loadoutvip"
+  8:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "&3UnrealCraft special member"
+    permission: "loadoutunreal"
+  9:
+    name: "&4Loadout"
+    description:
+      - "&ahello world"
+    lockdescription:
+      - "&3UnrealCraft special member"
+    permission: "loadoutunreal"
+#
+# loadouteditor
+# the itemdata is the item that will display the item in the menu
+#
+loadouteditor:
+  MenuName: "&d[Loadout Editor]"
+
+primarygun:
+  MenuName: "&f&l[&4Primaryguns&f&l]"
+  size: 9
+  1:
+    name: "AK47"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: ak47gun
+    ammoitemdata: 762mm
+  2:
+    name: "Gun2"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: ak47gun
+    ammoitemdata: 762mm
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "description"
+      - "to unlock the price is 200"
+    price: 200
+secondarygun:
+  MenuName: "&f&l[&4secondaryguns&f&l]"
+  size: 9
+  1:
+    name: "glock"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: glock19gun
+    ammoitemdata: 9mm
+  2:
+    name: "Example"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: example
+    ammoitemdata: exampleammo
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "description"
+      - "to unlock the price is 100"
+    price: 100
+grenades:
+  MenuName: "&f&l[&dThrowables&f&l]"
+  size: 9
+  1:
+    name: "Example"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: example
+  2:
+    name: "Example"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: example
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "description"
+      - "to unlock the price is 100"
+    price: 100
+melee:
+  MenuName: "&f&l[&4Melee weapons&f&l]"
+  size: 9
+  1:
+    name: "Example"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: example
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "description"
+      - "to unlock the price is 100"
+    price: 100
+  2:
+    name: "Example"
+    description:
+      - "description"
+      - "hello!"
+    itemdata: example
+    lockname: "&3Locked LoadOut"
+    lockdescription:
+      - "description"
+      - "to unlock the price is 100"
+    price: 100

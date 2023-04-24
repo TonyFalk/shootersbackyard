@@ -1,0 +1,41 @@
+#
+# do not change isReady manually!
+# CTF.colorflag is meant to be itemdata!
+#
+# Msgs support PAPI && %Player% player name from action will be replaced as well!
+#
+isReady: false
+CTF:
+ blueflag:
+ redflag:
+ScoreBoard:
+ Title: "&aCTF"
+ lines:
+  - " "
+  - " Map:%unrealcraft_arena%"
+  - " "
+  - " "
+  - " %unrealcraft_timeleft%"
+Msgs:
+ OnBlueFlagReturn: "%Player% returned blue flag"
+ OnRedFlagReturn: "%Player% returned red flag"
+ OnBlueFlagSteal: "%Player% stole blue flag"
+ OnRedFlagSteal: "%Player% stole red flag"
+ OnBlueFlagCapture: "%Player% successfully captured blue flag"
+ OnRedFlagCapture: "%Player% successfully captured red flag"
+XP:
+ Kill: 5
+ OnBlueFlagReturn: 10
+ OnRedFlagReturn: 10
+ OnBlueFlagSteal: 10
+ OnRedFlagSteal: 10
+ OnBlueFlagCapture: 100
+ OnRedFlagCapture: 100
+CASH:
+ Kill: 5
+ OnBlueFlagReturn: 10
+ OnRedFlagReturn: 10
+ OnBlueFlagSteal: 10
+ OnRedFlagSteal: 10
+ OnBlueFlagCapture: 100
+ OnRedFlagCapture: 100
